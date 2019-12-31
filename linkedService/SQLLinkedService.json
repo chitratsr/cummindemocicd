@@ -1,0 +1,12 @@
+{
+	"name": "SQLLinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=boosrvr.database.windows.net;initial catalog=boodb;user id=sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlRFU1RDSUNEQURGXzg4NjViYWRhLTAxMWYtNGE5OC04MTQ0LTNiYmIwOTc0OTM4MCINCn0="
+		}
+	}
+}
